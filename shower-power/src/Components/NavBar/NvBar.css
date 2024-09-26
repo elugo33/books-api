@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: linear-gradient(106.23deg, #f99827, #f95f35 100%);
+    color: white;
+    height: 100%;
+    width: 180px;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+   
+    
+}
+ul {
+    list-style: none;
+    
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align:center;
+    /* font-weight: bold; */
+}
+
+nav a:hover {
+    background-color: white;
+    color:rgb(236, 116, 4);
+    width: 100px;
+}
+.logoImg{
+   
+    margin-right: 6px;
+    margin-left:10px; 
+    border-radius: 50%;
+    width: 10rem;
+    margin-top: 30px;
+}
