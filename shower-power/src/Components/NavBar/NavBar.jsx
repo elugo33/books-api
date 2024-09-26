@@ -1,32 +1,27 @@
-import React, { useState} from "react";
-import {  Link } from "react-router-dom";
-import './NavBar.css'
-import Logo from 'src/img/Ignite ShowerPower logo.pdf'
+import React from "react";
+import { Link } from "react-router-dom";
+import './NavBar.css';
+import Logo from '../../img/logo.png'; 
 
 const NavBar = () => {
-
   return (
     <nav>
-    <img className="logoImg" src={Logo} alt="HobbyHUB custom logo shout out Ari!" />
-
-    <div>
+      <img className="logoImg" src={Logo} alt="Shower Power logo" />
+      <div>
         <ul>
-        <li>
-          <Link to="/home">Home</Link>
+        
+          <li>
+            <Link to="/login">Login</Link>
           </li>
           <li>
-          <Link to="/blog">Blog</Link>
+            <Link to="/signup">Sign Up</Link>
           </li>
-          <li>
-          <Link to="/about">About</Link>
-          </li>
-          <li>
-          <Link to="/contact">Contact</Link>
-          </li>
+         
         </ul>
       </div>
     </nav>
-      )
-    }
+  );
+}
 
-export default NavBar
+export default NavBar;
+

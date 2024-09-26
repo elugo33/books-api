@@ -1,8 +1,8 @@
 import "./App.css";
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from 'src/pages/Login/Login.jsx'; 
-import Schedule from 'src/pages/Schedule/schedule.jsx'; 
+import Login from './pages/Login/Login.jsx'; 
+import Schedule from './pages/Schedule/schedule.jsx'; 
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Login />} />
-          <Route path='/Schedule' element={<Schedule />} />
+          <Route path='Schedule' element={<Schedule />} />
         </Routes>
 
         <footer> 
