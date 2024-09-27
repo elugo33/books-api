@@ -49,7 +49,7 @@ const Login = () => {
       <div className="a-left">
         <img src={Logo} alt="ShowerPower Logo" />
         <div className="Webname">
-          <h1>Shower Power</h1>
+          <h5>Shower Power</h5>
         </div>
       </div>
 
@@ -68,9 +68,9 @@ const Login = () => {
           </div>
           <div>
             <input
-              type="email"
-              name="email"
-              placeholder="Email"
+              type="password"
+              name="password"
+              placeholder="password"
               value={data.email}
               onChange={handleChange} // Ensure handleChange is used
               required
